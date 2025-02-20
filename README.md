@@ -1,9 +1,9 @@
 # Unwrap
 
-Qt application that utilises Floater's algorithm to unwrap the vertices of a triangle mesh into UV coordinates.
-The backing structure is a half-edge graph, but the application does not require meshes to be manifold.
-
 ![unwrap](https://github.com/user-attachments/assets/4ba166eb-481c-40d4-a2f9-f14222a02293)
+
+Qt application that leverages [Floater's algorithm](https://www.cs.jhu.edu/~misha/Fall09/Floater97.pdf) to unwrap the vertices of a triangle mesh into a texture's UV coordinates.
+The backing structure is a half-edge graph, but the application does not require meshes to be manifold.
 
 ## Project Structure
 
